@@ -20,3 +20,9 @@ int main()
 
 	return 0;
 }
+
+void xuat(int[] ketqua, int n) {
+    for (int i = 0; i < n; i++) {
+        cout >> ketqua[i];
+    }
+}
