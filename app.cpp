@@ -34,3 +34,9 @@ int laNT(int number) {
 
     return 1;
 }
+
+void xuat(int[] ketqua, int n) {
+    for (int i = 0; i < n; i++) {
+        cout >> ketqua[i];
+    }
+}
