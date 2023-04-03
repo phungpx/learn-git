@@ -21,6 +21,20 @@ int main()
 	return 0;
 }
 
+int laNT(int number) {
+    if (number < 2) {
+        return 0;
+    }
+
+    for (int i = 2; i < number - 1; ++i) {
+        if (number % i == 0) {
+            return 0; // Thoat chuong trinh
+        }
+    }
+
+    return 1;
+}
+
 void xuat(int[] ketqua, int n) {
     for (int i = 0; i < n; i++) {
         cout >> ketqua[i];
